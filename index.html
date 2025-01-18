@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratyush Mohanty Profile</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        nav {
+            background: #333;
+            color: white;
+            display: flex;
+            justify-content: center;
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 1rem;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #00f2fe;
+        }
+
+        header {
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            color: white;
+            text-align: center;
+            padding: 4rem 1rem; /* Increased vertical space */
+            animation: slideInFromTop 1s ease-in-out;
+        }
+
+        @keyframes slideInFromTop {
+            from {
+                transform: translateY(-50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid white;
+            animation: zoomIn 1s ease-in-out;
+        }
+
+        @keyframes zoomIn {
+            from {
+                transform: scale(0.8);
+                opacity: 0;
+            }
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        header h1 {
+            margin: 1rem 0 0.5rem;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            animation: fadeInUp 1.5s ease-in-out;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                transform: translateY(20px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        section h2 {
+            margin-bottom: 1rem;
+            font-size: 2rem;
+            border-bottom: 2px solid #00f2fe;
+            display: inline-block;
+        }
+
+        section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        section ul li {
+            background: #f9f9f9;
+            margin-bottom: 1rem;
+            padding: 1rem;
+            border-left: 4px solid #00f2fe;
+        }
+
+        .project-details {
+            margin-top: 0.5rem;
+            font-size: 0.9rem;
+            color: #555;
+        }
+
+        .project-link {
+            display: inline-block;
+            margin-top: 0.5rem;
+            padding: 0.5rem 1rem;
+            background: #00f2fe;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 0.9rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #333;
+            color: white;
+            margin-top: 2rem;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            header p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications-and-acheivements">Certifications/Acheivements</a>
+    </nav>
+
+    <header>
+        <img src="1682097621086.jpeg" alt="Your Image">
+        <h1>Your Name</h1>
+        <p>I love 3D , ML and AI</p>
+        <div style="margin-top: 1rem;">
+            <a href="https://www.linkedin.com/in/pratyush-mohanty-8161b9222" target="_blank" style="text-decoration: none; margin: 0 0.5rem; padding: 0.5rem 1rem; background: #0077b5; color: white; border-radius: 5px; font-size: 0.9rem;">LinkedIn</a>
+            <a href="https://www.instagram.com/kitsunefreya/" target="_blank" style="text-decoration: none; margin: 0 0.5rem; padding: 0.5rem 1rem; background: #e4405f; color: white; border-radius: 5px; font-size: 0.9rem;">Instagram</a>
+            <a href="https://github.com/pratyush532" target="_blank" style="text-decoration: none; margin: 0 0.5rem; padding: 0.5rem 1rem; background: #333; color: white; border-radius: 5px; font-size: 0.9rem;">GitHub</a>
+        </div>
+    </header>
+
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li>Vellore Institute of Technology - Andhra Pradesh
+                <p class="project-details">B.Tech in Computer Science, Specialization in Artificial intelligence</p>
+                <p class="project-details">— CGPA: 9.47 September 2024</p>
+            </li>
+            <li>CMR National Public School Bengaluru, KA, India
+                <p class="project-details">Class 12, PCMC, CBSE</p>
+                <p class="project-details">— Percentage: 93.6 2020</p>
+            </li>
+            <li>Presidency School, Kasturinagar Bengaluru, KA, India
+                <p class="project-details">Class 10, CBSE</p>
+                <p class="project-details">— Percentage: 96.8 2018</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <ul>
+            <li>Web Development Internship
+                <p class="project-details">Human Resocia Co. Ltd. (Remote work) Tokyo, Japan</p>
+                <p class="project-details">— Jan 2024 – June 2024</p>
+                <p class="project-details">• Prototype development for a report generation software</p>
+                <p class="project-details">• Converted install based software to a SaaS platform with features like account creation, login. Added features like previewing generated reports for improved UX of web users</p>
+                <p class="project-details">• Responsibilities included UI/UX development, research into tech stacks, back-end file processing development</p>
+            </li>
+            <li>Data Analytics Intern and Web Development
+                <p class="project-details">Chairman of Rasipuram Town Amaravati, AP</p>
+                <p class="project-details">— Jan 2023 – June 2023</p>
+                <p class="project-details">• Created the concept and front end for the website</p>
+                <p class="project-details">• Devised effective data collection strategies and implemented data cleaning procedures to enhance data quality. Designed and implemented an efficient data management system to organize, store, and retrieve information.</p>
+                <p class="project-details">• The website served as a comprehensive repository for public service announcements, providing the town’s residents with the latest news and crucial information relevant to the area.</p>
+            </li>
+            <li>UI/UX Design and 3D Development Intern
+                <p class="project-details">Mukham ,VIT AP Innovation and Incubation Center Amaravati, AP</p>
+                <p class="project-details">— May 2022 – Oct 2022</p>
+                <p class="project-details">• Development ,3D modelling and sculpting of campus in 3D using Blender to enable geo-tagging</p>
+                <p class="project-details">• UI/UX re-design of the Mukham app, and complete development of companion MauTHN app</p>
+            </li>
+            <li>Freelance Game Developer and 3D Developer
+                <p class="project-details">Fiverr, Instagram, Deviantart, Itch.io Bengaluru, KA</p>
+                <p class="project-details">— May 2019 – Nov 2020</p>
+                <p class="project-details">• Utilized Godot for level design and game play, Unity for terrain and environment design, and Blender Python API and OpenGL for add-on development.</p>
+                <p class="project-details">• Developed game levels and concepts using Aesprite, Blender 3D, and Photoshop 3D for environment modeling. Took commissions for level design, concept design, and 3D rendering, and prepared documentation and reports.</p>
+                <p class="project-details">• Leveraged Godot game engine, python to generate large environments with realistic corrosion effects.</p>
+            </li>
+        </ul>
+    </section>
+
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>Agro Detect: Deep Learning for Paddy Disease Classification
+                <p class="project-details">Python - Keras, Streamlit; Android - Java</p>
+                <p class="project-details">• Deep learning for Paddy Disease Classification. Utilized custom CNN architectures, including novel techniques like Octave Convolution and Squeeze-Excitation Networks, trained on the Paddy Doctor dataset. Obtained final accuracy of 97.59</p>
+                <p class="project-details">• Created a deployable machine learning pipeline for Android application wherein one can upload picture to identify disease on the crop.</p>
+                <a href="#" class="project-link">View Project</a>
+            </li>
+            <li>Fragility Flow Plot Generation
+                <p class="project-details">Python - Numpy, Keras, Sci-kit, Numpy, Streamlit</p>
+                <p class="project-details">• Developed an AI solution to generate the Fragility Flow plots of buildings from information about buildings structure</p>
+                <p class="project-details">• Created a deployable AI model and a web-app with Interactive real-time graph generation capability</p>
+                <a href="#" class="project-link">View Project</a>
+            </li>
+            <li>Smoother Quit (Patent Pending)
+                <p class="project-details">Raspberry Pi, Python, Android- Java, PHP, Blender, FreeCAD</p>
+                <p class="project-details">• A full-stack IoT solution made to track nicotine consumption which will aid the user to quit smoking addiction. Physical device with 3D printed housing communicates with Android application to track and process usage of device</p>
+                <p class="project-details">• Lead a team that created a Raspberry Pi device that administers nicotine patches in a 3D printed housing</p>
+                <a href="#" class="project-link">View Project</a>
+            </li>
+            <li>Diabetic Health Care Data Analytics and Applications
+                <p class="project-details">RESEARCH</p>
+                <p class="project-details">• Using ML to analyze, predict early onset diabetes using symptoms and complications like diabetes retinopathy.</p>
+                <p class="project-details">• This research chapter discusses various architectures of diabetic health data modelling and analysis, devices, sensors and application for different stages of diabetic data acquiring, processing, prediction and treatment planning. This chapter also discusses the secondary complications and its associated analytics available for the diagnosis of diabetes.</p>
+                <p class="project-details">• This has been published in the book: “Data Modelling and Analytics for the Internet of Medical Things”.</p>
+                <p class="project-details">• Link to the research.</p>
+                <a href="#" class="project-link">View Project</a>
+            </li>
+            <li>Integrated Disability Support System
+                <p class="project-details">Arduino, C, Android- Java, PHP</p>
+                <p class="project-details">• Physical support device that enables differently-abled people to move, with features for obstacle detection and depth perception</p>
+                <p class="project-details">• The sensor-equipped walking stick for Gait/Walk cycle analysis communicates wirelessly to develop quantifiable data displayed in the Android app</p>
+                <a href="#" class="project-link">View Project</a>
+            </li>
+        </ul>
+    </section>
+
+    <section id="certifications-and-acheivements">
+        <h2>Certificate</h2>
+        <ul>
+            <li>NVIDIA Fundamentals of Deep Learning
+                <p class="project-details">2022</p>
+                <a href="#" class="project-link">View Certificate</a>
+            </li>
+            <li>IBM AI Analyst
+                <p class="project-details">2022</p>
+                <a href="#" class="project-link">View Certificate</a>
+            </li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>

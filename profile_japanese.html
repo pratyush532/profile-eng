@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratyush Mohanty Profile</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        nav {
+            background: #333;
+            color: white;
+            display: flex;
+            justify-content: center;
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 1rem;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #00f2fe;
+        }
+
+        header {
+            background: linear-gradient(to right, #1a70bb, #00f2fe, #3b00fe);
+            color: white;
+            text-align: center;
+            padding: 4rem 1rem; /* Increased vertical space */
+            animation: slideInFromTop 1s ease-in-out;
+        }
+
+        @keyframes slideInFromTop {
+            from {
+                transform: translateY(-50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid white;
+            animation: zoomIn 1s ease-in-out;
+        }
+
+        @keyframes zoomIn {
+            from {
+                transform: scale(0.8);
+                opacity: 0;
+            }
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        header h1 {
+            margin: 1rem 0 0.5rem;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            animation: fadeInUp 1.5s ease-in-out;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                transform: translateY(20px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        section h2 {
+            margin-bottom: 1rem;
+            font-size: 2rem;
+            border-bottom: 2px solid #00f2fe;
+            display: inline-block;
+        }
+
+        section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        section ul li {
+            background: #f9f9f9;
+            margin-bottom: 1rem;
+            padding: 1rem;
+            border-left: 4px solid #00f2fe;
+        }
+
+        .project-details {
+            margin-top: 0.5rem;
+            font-size: 0.9rem;
+            color: #555;
+        }
+
+        .project-link {
+            display: inline-block;
+            margin-top: 0.5rem;
+            padding: 0.5rem 1rem;
+            background: #00f2fe;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 0.9rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #333;
+            color: white;
+            margin-top: 2rem;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            header p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="#3d-and0game-dev">3D・ゲーム開発</a>
+        <a href="#education">教育</a>
+        <a href="#experience">経験</a>
+        <a href="#projects">プロジェクト</a>
+        <a href="#certifications">認定・業績</a>
+        <a href="#acheivements">業績</a>
+        <a href="index.html">｜｜English Site(英語で見える）</a>
+    </nav>
+
+    <header>
+        <img src="1682097621086.jpeg" alt="あなたの写真">
+        <h1>プラトユシュ・モハンティ</h1>
+        <p>私は3D・ML・AIが大好きです。</p>
+        <div style="margin-top: 1rem;">
+            <a href="https://www.linkedin.com/in/pratyush-mohanty-8161b9222" target="_blank" style="text-decoration: none; margin: 0 0.5rem; padding: 0.5rem 1rem; background: #0077b5; color: white; border-radius: 5px; font-size: 0.9rem;">LinkedIn</a>
+            <a href="https://www.instagram.com/kitsunefreya/" target="_blank" style="text-decoration: none; margin: 0 0.5rem; padding: 0.5rem 1rem; background:  #c739ff; color: white; border-radius: 5px; font-size: 0.9rem;">Instagram</a>
+            <a href="https://github.com/pratyush532" target="_blank" style="text-decoration: none; margin: 0 0.5rem; padding: 0.5rem 1rem; background: #333; color: white; border-radius: 5px; font-size: 0.9rem;">GitHub</a>
+        </div>
+    </header>
+
+    <section id="3d-and-game-dev">
+        <h2>私の3Dとゲーム開発プロジェクト</h2>
+        <h3>使ったソフトウェア: Blender, Unity Engine, Godot Engine, Aesprite</h3>
+        <ul>
+            <li>3Dポートフォリオ - BlenderやGodotを使って作ったアートです。 |
+                <a href="https://www.instagram.com/kitsunefreya/" target="_blank"class="project-link">リンク</a>
+            </li>
+            <li>プロシージャルな惑星生成ノードシステム（Blenderで作成） |
+                <a href="http://github.com/pratyush532/3D-and-Blender/tree/main/Planet%20Creation" target="_blank"class="project-link">リンク</a>
+            </li>
+        </ul>
+    </section>
+
+    <section id="experience">
+        <h2>経験</h2>
+        <ul>
+            <li>ウェブ開発インターンシップ
+                <p class="project-details">ヒューマンリソシア株式会社（リモート勤務）東京、日本</p>
+                <p class="project-details">— 2024年1月 ～ 2024年6月</p>
+                <p class="project-details">• レポート生成ソフトウェアのプロトタイプ開発</p>
+                <p class="project-details">• インストール型ソフトウェアをSaaSプラットフォームに変換。アカウント作成、ログイン機能を追加し、生成されたレポートをプレビューできる機能でウェブユーザーのUXを改善</p>
+                <p class="project-details">• UI/UX開発、技術スタックの調査、バックエンドでのファイル処理開発を担当</p>
+            </li>
+            <li>データ分析およびウェブ開発インターン
+                <p class="project-details">ラシプラム町議会議長 アマラヴァティ、アンドラプラデーシュ</p>
+                <p class="project-details">— 2023年1月 ～ 2023年6月</p>
+                <p class="project-details">• ウェブサイトのコンセプトとフロントエンドを作成</p>
+                <p class="project-details">• 効率的なデータ収集戦略を作成し、データクリーニング手順を実装してデータ品質を向上。情報を整理・保存・取得するための効率的なデータ管理システムを設計・実装</p>
+                <p class="project-details">• ウェブサイトは公共サービスのお知らせを包括的に提供し、町の住民に最新ニュースや地域に関連する重要な情報を提供</p>
+            </li>
+            <li>UI/UXデザインおよび3D開発インターン
+                <p class="project-details">Mukham（VIT AP イノベーション＆インキュベーションセンター）アマラヴァティ、アンドラプラデーシュ</p>
+                <p class="project-details">— 2022年5月 ～ 2022年10月</p>
+                <p class="project-details">• Blenderを使用してキャンパスを3Dでモデリングおよびスカルプティングし、ジオタグ付けを可能にする開発</p>
+                <p class="project-details">• MukhamアプリのUI/UX再設計および連動するMauTHNアプリの完全な開発</p>
+            </li>
+            <li>フリーランスゲーム開発者および3D開発者
+                <p class="project-details">Fiverr、Instagram、Deviantart、Itch.io ベンガルール、カルナータカ</p>
+                <p class="project-details">— 2019年5月 ～ 2020年11月</p>
+                <p class="project-details">• Godotを使用したレベルデザインとゲームプレイ、Unityを使用した地形および環境デザイン、Blender Python APIおよびOpenGLを使用したアドオン開発を実施</p>
+                <p class="project-details">• Aesprite、Blender 3D、Photoshop 3Dを使用して環境モデリングを行い、ゲームレベルやコンセプトを開発。レベルデザイン、コンセプトデザイン、3Dレンダリングの依頼を受け、ドキュメントおよびレポートを作成</p>
+                <p class="project-details">• GodotゲームエンジンおよびPythonを活用し、リアルな腐食効果を備えた広大な環境を生成</p>
+            </li>
+        </ul>
+    </section>
+    
+
+    <section id="experience">
+        <h2>経験</h2>
+        <ul>
+            <li>Web開発インターンシップ
+                <p class="project-details">人材リソシア株式会社（リモート） 東京、日本</p>
+                <p class="project-details">— 2024年1月～2024年6月</p>
+                <p class="project-details">• 報告書生成ソフトウェアのプロトタイプ開発</p>
+                <p class="project-details">• インストール型ソフトウェアをSaaSプラットフォームに変換し、アカウント作成やログイン機能などを追加。ユーザー体験を向上させるために生成レポートのプレビュー機能も追加。</p>
+                <p class="project-details">• UI/UX開発、技術調査、バックエンド処理の開発を担当</p>
+            </li>
+            <li>データ分析とWeb開発インターン
+                <p class="project-details">ラスィプラム町議会会長 アマラヴァティ、AP</p>
+                <p class="project-details">— 2023年1月～2023年6月</p>
+                <p class="project-details">• ウェブサイトのコンセプトとフロントエンドの作成</p>
+                <p class="project-details">• 効果的なデータ収集とクリーンアップを実施。質の高いデータ管理システムを構築。</p>
+                <p class="project-details">• 公共サービス発表のためのウェブサイトを提供し、町の住民が重要な情報にアクセス可能に。</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>プロジェクト</h2>
+        <ul>
+            <li>Agro Detect: 深層学習による稲病気分類
+                <p class="project-details">Python - Keras, Streamlit; Android - Java</p>
+                <p class="project-details">• 深層学習を使用した稲病気分類。Paddy Doctorデータセットを使用して、Octave ConvolutionやSqueeze-Excitation Networksなどの新しい技術を含むカスタムCNNアーキテクチャを利用。最終的な精度97.59を達成。</p>
+                <p class="project-details">• 作物の病気を特定するために画像をアップロードできるAndroidアプリケーション用の展開可能な機械学習パイプラインを作成。</p>
+                <a href="https://drive.google.com/file/d/15kMXunLikw8A-FVX4otFSD8Hl3kWgDMh/view?usp=drive_link" target="_blank" class="project-link">プロジェクトを見る</a>
+            </li>
+            <li>Fragility Flowプロット生成
+                <p class="project-details">Python - Numpy, Keras, Sci-kit, Numpy, Streamlit</p>
+                <p class="project-details">• 建物の構造情報からFragility Flowプロットを生成するAIソリューションを開発。</p>
+                <p class="project-details">• 展開可能なAIモデルとインタラクティブなリアルタイムグラフ生成機能を備えたWebアプリを作成。</p>
+                <a href="https://github.com/pratyush532" target="_blank" class="project-link">プロジェクトを見る</a>
+            </li>
+            <li>Smoother Quit（特許出願中）
+                <p class="project-details">Raspberry Pi, Python, Android - Java, PHP, Blender, FreeCAD</p>
+                <p class="project-details">• 喫煙習慣をやめるのを助けるためのニコチン消費を追跡するフルスタックIoTソリューション。3Dプリントハウジング付き物理デバイスがAndroidアプリケーションと通信し、デバイスの使用状況を追跡・処理。</p>
+                <p class="project-details">• 3Dプリントハウジングでニコチンパッチを提供するRaspberry Piデバイスを作成するチームをリード。</p>
+                <a href="https://github.com/pratyush532" target="_blank" class="project-link">プロジェクトを見る</a>
+            </li>
+            <li>糖尿病ヘルスケアデータ分析とアプリケーション
+                <p class="project-details">研究</p>
+                <p class="project-details">• 症状や糖尿病網膜症などの合併症を使用して早期糖尿病発症を予測するための機械学習。</p>
+                <p class="project-details">• この研究章では、糖尿病データ取得、処理、予測、治療計画の異なる段階のための様々なデバイス、センサー、アプリケーションを含む糖尿病データモデリングと分析のアーキテクチャを議論しています。また、診断のための二次的な合併症とその関連分析についても言及しています。</p>
+                <p class="project-details">• 書籍「Data Modelling and Analytics for the Internet of Medical Things」に掲載。</p>
+                <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jbrS_tYAAAAJ&citation_for_view=jbrS_tYAAAAJ:u5HHmVD_uO8C" target="_blank" class="project-link">プロジェクトを見る</a>
+            </li>
+            <li>統合障害支援システム
+                <p class="project-details">Arduino, C, Android - Java, PHP</p>
+                <p class="project-details">• 障害者が移動できるようにするための物理的支援デバイスで、障害物検知や深度認識機能を備えています。</p>
+                <p class="project-details">• Androidアプリで表示される定量化可能なデータを開発するため、センサー付き歩行杖が無線通信を行います。</p>
+                <a href="https://drive.google.com/file/d/1Ll2frNCsTUrgBPxdlAU0DEuTQiFP1XWM/view?usp=drive_link" target="_blank" class="project-link">プロジェクトを見る</a>
+            </li>
+        </ul>
+    </section>
+    
+    <section id="certifications">
+        <h2>認定資格</h2>
+        <ul>
+            <li>NAT（日本語能力試験）Q4
+                <p class="project-details">2024年9月、専門教育出版株式会社</p>
+                <a href="https://drive.google.com/file/d/1cf3PMImbRjtiVixjs5hL8KotTaM4rHgr/view?usp=sharing" target="_blank" class="project-link">証明書を見る</a>
+            </li>
+            <li>JLPT N5
+                <p class="project-details">2024年8月、日本財団</p>
+                <a href="https://drive.google.com/file/d/1XkGwWab65sm6gIsFrCqhguL6OPM_JEQa/view?usp=sharing" target="_blank" class="project-link">証明書を見る</a>
+            </li>
+            <li>プレゼンター認定証
+                <p class="project-details">2024年2月、ICETSIS 2024で「Presence Detection with Wi-Fi using ESP32」論文を発表</p>
+                <a href="https://www.linkedin.com/feed/update/urn:li:activity:7160282252805869568/" target="_blank" class="project-link">証明書を見る</a>
+            </li>
+            <li>IBM人工知能アナリスト
+                <p class="project-details">2023年7月、IBM Developer Skills Network</p>
+                <a href="https://courses.ibmcep.cognitiveclass.ai/certificates/b496c3da890f4dfa9c53f7fb9fd32521" target="_blank" class="project-link">証明書を見る</a>
+            </li>
+            <li>深層学習の基礎
+                <p class="project-details">2022年9月、NVIDIA Deep Learning Institute</p>
+                <a href="https://courses.nvidia.com/certificates/ae21b59f8ac54bacac5221c3ab77f13a/" target="_blank" class="project-link">証明書を見る</a>
+            </li>
+        </ul>
+    </section>
+    
+    <section id="achievements">
+        <h2>業績</h2>
+        <ul>
+            <li>第5位
+                <p class="project-details">B.Tech CSE-AI 2024 VIT-AP大学、学術優秀賞 - CGPA 9.47</p>
+                <a href="https://drive.google.com/file/d/1JUqG6DID4MT_kL0zdQEv--m56U5IrCxj/view?usp=drive_link" target="_blank" class="project-link">証明書を見る</a>
+            </li>
+            <li>VITAPエンジニアリングクリニック IoT部門
+                <p class="project-details">統合障害支援システムの最優秀現代プロジェクト</p>
+                <a href="https://www.linkedin.com/posts/pratyush-mohanty-8161b9222_team-androidapp-engineeringdesign-activity-7024057892177674240-6E8l?utm_source=social_share_send&utm_medium=member_desktop_web" target="_blank" class="project-link">証明書を見る</a>
+            </li>
+            <li>優秀なキャップストーンプロジェクト:
+                <p class="project-details">最終学年プロジェクト「Agro Detect: 深層学習による稲病気分類」</p>
+                <a href="https://drive.google.com/file/d/123FNu-pcuJvU6n-fU72irf1M472Lznz1/view?usp=drive_link" target="_blank" class="project-link">証明書を見る</a>
+            </li>
+        </ul>
+    </section>
+    
+
+    <footer>
+        <p>&copy; 2025 プラトユシュ・モハンティ. All rights reserved.</p>
+    </footer>
+</body>
+</html>
